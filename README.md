@@ -1,6 +1,6 @@
 # VulkanGen
 
-Vulkan C++ wrapper generator, inspired by nvidia's nvcpp, but rewritten in Go.
+Vulkan C++ wrapper generator, inspired by nvidia's vkcpp, but rewritten in Go.
 
 Public domain.
 
