@@ -47,6 +47,10 @@ func convertEnumValueName(expand, enum, name string) string {
 		// special case
 		name = strings.TrimPrefix(name, "VK_")
 	}
+	if strings.HasPrefix(name, "VK_COLORSPACE") {
+		// hack
+		name = strings.TrimPrefix(name, "VK_COLORSPACE")
+	}
 
 	name, _ = trimTagSuffix(name)
 	name = strings.TrimSuffix(name, "_BIT")
